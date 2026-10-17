@@ -1,0 +1,8 @@
+# Every version is pinned exactly. Bump deliberately, rebuild, and re-verify on the phone.
+# There are deliberately NO library dependencies: AndroidX dropped API 19 in 2024, and the
+# framework's own View toolkit is all a six-tile home screen needs.
+[versions]
+agp = "9.4.1"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

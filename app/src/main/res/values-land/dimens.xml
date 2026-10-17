@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="greeting_size">28sp</dimen>
+    <dimen name="header_height">52dp</dimen>
+    <dimen name="gate_spot">52dp</dimen>
+    <dimen name="home_button">48dp</dimen>
+</resources>

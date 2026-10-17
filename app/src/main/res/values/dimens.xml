@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gap">12dp</dimen>
+    <dimen name="tile_radius">30dp</dimen>
+    <dimen name="tile_edge">7dp</dimen>
+    <dimen name="greeting_size">38sp</dimen>
+    <dimen name="header_height">92dp</dimen>
+    <dimen name="gate_spot">64dp</dimen>
+    <dimen name="home_button">64dp</dimen>
+</resources>

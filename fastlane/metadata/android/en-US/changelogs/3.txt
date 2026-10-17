@@ -1,0 +1,1 @@
+First public release: home screen with Camera, Photos, Music, Videos and a Games page of twelve FLOSS kids' games; a grown-up exit behind a 3-second hold and a sum; optional child's name; English and Dutch. No permissions.

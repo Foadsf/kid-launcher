@@ -1,0 +1,10 @@
+.gradle/
+.kotlin/
+build/
+local.properties
+*.iml
+.idea/
+
+# Signing keys never go in a public repo. See README "Signing".
+*.keystore
+*.jks

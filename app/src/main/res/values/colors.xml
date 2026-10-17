@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Soft pastels, each with a deeper partner for the tile's "candy" edge and its label.
+         Kept in step with tools/gen_icons.py. -->
+    <color name="pink">#FFFF8FA3</color>
+    <color name="pink_deep">#FFE8607E</color>
+    <color name="yellow">#FFFFD166</color>
+    <color name="yellow_deep">#FFF0A830</color>
+    <color name="lilac">#FFB79CFF</color>
+    <color name="lilac_deep">#FF8466E0</color>
+    <color name="blue">#FF7CC8FF</color>
+    <color name="blue_deep">#FF3F95E0</color>
+    <color name="mint">#FF7EE0B5</color>
+    <color name="mint_deep">#FF34B57F</color>
+    <color name="peach">#FFFFAD7A</color>
+    <color name="peach_deep">#FFEE7F45</color>
+
+    <color name="plum">#FF5B3E8C</color>
+    <color name="sky_top">#FFFFDCEB</color>
+    <color name="sky_mid">#FFEBDFFF</color>
+    <color name="sky_bottom">#FFD2EEFF</color>
+    <color name="hill_back">#FFC9F2DC</color>
+    <color name="hill_front">#FFA6E6C5</color>
+    <color name="sun">#FFFFE07A</color>
+    <color name="sun_ray">#FFFFD25E</color>
+</resources>

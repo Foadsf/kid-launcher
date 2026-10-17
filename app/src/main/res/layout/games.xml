@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <io.github.foadsf.kidlauncher.SkyView
+        android:id="@+id/sky"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_height">
+
+            <ImageButton
+                android:id="@+id/back_home"
+                android:layout_width="@dimen/home_button"
+                android:layout_height="@dimen/home_button"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/back_home"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_home" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:shadowColor="#66FFFFFF"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text="@string/games_title"
+                android:textColor="@color/plum"
+                android:textSize="@dimen/greeting_size" />
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:paddingBottom="24dp"
+            android:scrollbars="none">
+
+            <io.github.foadsf.kidlauncher.TileGrid
+                android:id="@+id/grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

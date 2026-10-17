@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <io.github.foadsf.kidlauncher.SkyView
+        android:id="@+id/sky"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- fitsSystemWindows keeps content clear of the translucent status bar. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_height">
+
+            <TextView
+                android:id="@+id/greeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="6dp"
+                android:drawableEnd="@drawable/ic_heart"
+                android:shadowColor="#66FFFFFF"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:text="@string/greeting_anon"
+                android:textColor="@color/plum"
+                android:textSize="@dimen/greeting_size" />
+
+            <!-- The parent exit: hold here for 3 seconds, then answer a sum. Unmarked on purpose. -->
+            <io.github.foadsf.kidlauncher.ParentGateView
+                android:id="@+id/gate"
+                android:layout_width="@dimen/gate_spot"
+                android:layout_height="@dimen/gate_spot"
+                android:layout_gravity="top|end" />
+        </FrameLayout>
+
+        <io.github.foadsf.kidlauncher.TileGrid
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</FrameLayout>

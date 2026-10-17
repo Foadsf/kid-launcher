@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TranslucentDecor (API 19) lets the sky run up behind the status bar. -->
+    <style name="KidTheme" parent="@android:style/Theme.Holo.Light.NoActionBar.TranslucentDecor">
+        <item name="android:windowBackground">@color/sky_mid</item>
+        <item name="android:windowShowWallpaper">false</item>
+    </style>
+</resources>

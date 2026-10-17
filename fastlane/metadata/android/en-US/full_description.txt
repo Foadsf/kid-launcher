@@ -1,0 +1,17 @@
+<p>A cheerful, simple home screen for a young child (about 4-7) on an old Android phone, from KitKat 4.4 up.</p>
+
+<ul>
+<li>Big candy-coloured tiles with a picture on each and one easy word underneath, for children who are only starting to read</li>
+<li>Camera, Photos, Music, Videos and a Games page, nothing else</li>
+<li>Whitelist only: a child never stumbles into Settings, the store or a browser</li>
+<li>Gentle press bounce, tiles that pop in, and a soft sky with a smiling sun</li>
+<li>A grown-up exit: hold the top-right corner for 3 seconds, then answer a two-digit sum</li>
+<li>Optionally greets the child by name (set at build time)</li>
+<li>English and Dutch</li>
+</ul>
+
+<p><b>No permissions at all: no network, no storage, no analytics, no ads, no tracking.</b></p>
+
+<p><b>Setup:</b> install it, press Home, choose Kid Launcher and tap Always.</p>
+
+<p>The Games page lists a fixed set of FLOSS kids' games from F-Droid if they are installed. Kid Launcher does not bundle, download or install any app. To show other games, edit the list in the source and rebuild.</p>

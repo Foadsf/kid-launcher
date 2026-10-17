@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greeting">Hoi %1$s!</string>
+    <string name="greeting_anon">Hoi!</string>
+
+    <string name="tile_camera">Camera</string>
+    <string name="tile_photos">Foto\'s</string>
+    <string name="tile_music">Muziek</string>
+    <string name="tile_videos">Video\'s</string>
+
+    <string name="gate_title">Alleen voor grote mensen</string>
+    <string name="gate_ok">OK</string>
+    <string name="gate_cancel">Annuleren</string>
+    <string name="gate_wrong">Bijna - probeer deze</string>
+    <string name="parent_title">Oudermenu</string>
+    <string name="parent_settings">Instellingen openen</string>
+    <string name="parent_other_home">Gewone startscherm openen</string>
+    <string name="parent_choose_home">Standaard startscherm wijzigen</string>
+    <string name="no_other_home">Er is geen ander startscherm geïnstalleerd</string>
+    <string name="app_missing">Die app staat niet op deze telefoon</string>
+
+    <string name="tile_games">Spelletjes</string>
+
+    <string name="games_title">Spelletjes</string>
+    <string name="back_home">Thuis</string>
+
+    <!-- Short words for the game tiles: the app icons carry the meaning. -->
+    <string name="game_coloring">Kleuren</string>
+    <string name="game_memory">Memory</string>
+    <string name="game_teddy">Teddy</string>
+    <string name="game_doodle">Tekenen</string>
+    <string name="game_paint">Verven</string>
+    <string name="game_letters">Letters</string>
+    <string name="game_counting">Tellen</string>
+    <string name="game_pairs">Paartjes</string>
+    <string name="game_train">Trein</string>
+    <string name="game_pinball">Flipper</string>
+    <string name="game_blocks">Blokken</string>
+    <string name="game_quiz">Quiz</string>
+</resources>

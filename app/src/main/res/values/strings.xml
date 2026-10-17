@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greeting">Hi %1$s!</string>
+    <string name="greeting_anon">Hi there!</string>
+
+    <string name="tile_camera">Camera</string>
+    <string name="tile_photos">Photos</string>
+    <string name="tile_music">Music</string>
+    <string name="tile_videos">Videos</string>
+
+    <string name="gate_title">Grown-ups only</string>
+    <string name="gate_question" translatable="false">%1$d + %2$d = ?</string>
+    <string name="gate_ok">OK</string>
+    <string name="gate_cancel">Cancel</string>
+    <string name="gate_wrong">Not quite - try this one</string>
+    <string name="parent_title">Parent menu</string>
+    <string name="parent_settings">Open Settings</string>
+    <string name="parent_other_home">Open the normal home screen</string>
+    <string name="parent_choose_home">Change the default home app</string>
+    <string name="no_other_home">No other home screen is installed</string>
+    <string name="app_missing">That app is not on this phone</string>
+
+    <string name="tile_games">Games</string>
+
+    <string name="games_title">Games</string>
+    <string name="back_home">Home</string>
+
+    <!-- Short words for the game tiles: the app icons carry the meaning. -->
+    <string name="game_coloring">Colouring</string>
+    <string name="game_memory">Memory</string>
+    <string name="game_teddy">Teddy</string>
+    <string name="game_doodle">Doodle</string>
+    <string name="game_paint">Paint</string>
+    <string name="game_letters">Letters</string>
+    <string name="game_counting">Counting</string>
+    <string name="game_pairs">Pairs</string>
+    <string name="game_train">Train</string>
+    <string name="game_pinball">Pinball</string>
+    <string name="game_blocks">Blocks</string>
+    <string name="game_quiz">Quiz</string>
+</resources>

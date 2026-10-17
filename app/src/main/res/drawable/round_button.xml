@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Games screen's "back home" button: a white bubble that blushes pink when pressed. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFE3EA" />
+            <stroke android:width="3dp" android:color="@color/pink" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#F7FFFFFF" />
+            <stroke android:width="3dp" android:color="#59E8607E" />
+        </shape>
+    </item>
+</selector>
