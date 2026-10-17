@@ -1,0 +1,25 @@
+Categories:
+  - Launcher
+License: GPL-3.0-only
+AuthorName: Foad S. Farimani
+SourceCode: https://github.com/Foadsf/kid-launcher
+IssueTracker: https://github.com/Foadsf/kid-launcher/issues
+
+AutoName: Kid Launcher
+
+RepoType: git
+Repo: https://github.com/Foadsf/kid-launcher.git
+
+Builds:
+  - versionName: 0.3.0
+    versionCode: 3
+    commit: 24fe6e3c242173954bc946c6d34ccbda582bbb09
+    subdir: app
+    gradle:
+      - yes
+    prebuild: sdkmanager "platforms;android-35" "build-tools;37.0.0"
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 0.3.0
+CurrentVersionCode: 3
