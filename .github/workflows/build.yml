@@ -33,10 +33,11 @@ jobs:
         run: |
           apk=app/build/outputs/apk/debug/app-debug.apk
           bt="$ANDROID_HOME/build-tools/37.0.0"
-          "$bt/aapt2" dump badging "$apk" | grep -x "sdkVersion:'19'"
+          "$bt/aapt2" dump badging "$apk" | grep -x "minSdkVersion:'19'"
           perms=$("$bt/aapt2" dump permissions "$apk")
           echo "$perms"
-          ! echo "$perms" | grep -q 'uses-permission'
+          # Not `! grep`: bash -e ignores a negated command unless it is the step's last line.
+          if echo "$perms" | grep -q 'uses-permission'; then echo "APK requests permissions"; exit 1; fi
           # Android 4.4 only checks v1 (JAR) signatures.
           "$bt/apksigner" verify -v --min-sdk-version 19 "$apk" | grep "v1 scheme (JAR signing): true"
 
