@@ -1,0 +1,1 @@
+The Games page now lists the four learning games from Kids STEM Games (Robot Path, Pattern Machine, Kangaroo Hops, Balance Scale) first, when they are installed.

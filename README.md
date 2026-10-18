@@ -25,11 +25,17 @@ at Samsung's stock apps; on a phone without them, Camera, Photos and Music fall 
 built-in app does that job. A tile whose app is missing simply does not appear.
 
 **Games** opens a scrolling page of games, each shown with its own icon, so a child recognises
-it from inside the game. Back, Home or the big house button return. The default list is twelve
-FLOSS kids' games from F-Droid, all of which still run on API 19:
+it from inside the game. Back, Home or the big house button return. The default list starts with
+the four learning games from [Kids STEM Games](https://github.com/Foadsf/kids-stem-games), made
+alongside this launcher, followed by twelve FLOSS kids' games from F-Droid. All of them run on
+API 19:
 
 | Tile | App | Package |
 |---|---|---|
+| Robot | [Robot Path](https://github.com/Foadsf/kids-stem-games/tree/main/robot-path): a first coding game | `io.github.foadsf.robotpath` |
+| Patterns | [Pattern Machine](https://github.com/Foadsf/kids-stem-games/tree/main/pattern-machine): what comes next? | `io.github.foadsf.patternmachine` |
+| Hops | [Kangaroo Hops](https://github.com/Foadsf/kids-stem-games/tree/main/kangaroo-hops): counting on a number line | `io.github.foadsf.kangaroohops` |
+| Balance | [Balance Scale](https://github.com/Foadsf/kids-stem-games/tree/main/balance-scale): equality with fruit | `io.github.foadsf.balancescale` |
 | Colouring | Coloring Book | `eu.quelltext.coloring` |
 | Memory | Candy Memory | `se.tube42.kidsmem.android` |
 | Teddy | Nounours and friends | `ca.rmen.nounours` |

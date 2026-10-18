@@ -25,7 +25,7 @@ PKG = "io.github.foadsf.kidlauncher"
 HOME = [("Camera", "com.sec.android.app.camera"), ("Photos", "com.sec.android.gallery3d"),
         ("Music", "com.sec.android.app.music"), ("Videos", "com.samsung.everglades.video"),
         ("Games", PKG)]
-GAMES = [("Colouring", "eu.quelltext.coloring"), ("Memory", "se.tube42.kidsmem.android"),
+GAMES = [("Robot", "io.github.foadsf.robotpath"), ("Patterns", "io.github.foadsf.patternmachine"), ("Hops", "io.github.foadsf.kangaroohops"), ("Balance", "io.github.foadsf.balancescale"), ("Colouring", "eu.quelltext.coloring"), ("Memory", "se.tube42.kidsmem.android"),
          ("Teddy", "ca.rmen.nounours"), ("Doodle", "ardash.doodledudette"),
          ("Paint", "anupam.acrylic"), ("Letters", "ch.cryptobit.letterbox"),
          ("Counting", "eu.quelltext.counting"), ("Pairs", "org.secuso.privacyfriendlymemory"),

@@ -12,8 +12,8 @@ android {
         // Written for a Galaxy S4 mini VE on stock KitKat 4.4.4. Do not raise this.
         minSdk = 19
         targetSdk = 35
-        versionCode = 3
-        versionName = "0.3.0"
+        versionCode = 7
+        versionName = "0.7.0"
 
         // The child's name, for the greeting ("Hi Mia!") and the app label ("Mia's Home"):
         //   ./gradlew assembleDebug -PkidName=Mia

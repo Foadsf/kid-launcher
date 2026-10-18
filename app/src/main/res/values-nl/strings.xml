@@ -25,6 +25,10 @@
     <string name="back_home">Thuis</string>
 
     <!-- Short words for the game tiles: the app icons carry the meaning. -->
+    <string name="game_robot">Robot</string>
+    <string name="game_patterns">Patronen</string>
+    <string name="game_hops">Sprongen</string>
+    <string name="game_balance">Weegschaal</string>
     <string name="game_coloring">Kleuren</string>
     <string name="game_memory">Memory</string>
     <string name="game_teddy">Teddy</string>

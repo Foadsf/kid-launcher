@@ -94,6 +94,10 @@ final class KidApps {
 
     /** F-Droid names in the comments; the readers (Orion, Seeneva) are deliberately absent. */
     static final Entry[] GAME_LIST = {
+            game(3, "io.github.foadsf.robotpath", R.string.game_robot),        // Robot Path (ours)
+            game(4, "io.github.foadsf.patternmachine", R.string.game_patterns), // Pattern Machine (ours)
+            game(1, "io.github.foadsf.kangaroohops", R.string.game_hops),      // Kangaroo Hops (ours)
+            game(5, "io.github.foadsf.balancescale", R.string.game_balance),   // Balance Scale (ours)
             game(0, "eu.quelltext.coloring", R.string.game_coloring),          // Coloring Book
             game(1, "se.tube42.kidsmem.android", R.string.game_memory),        // Candy Memory
             game(2, "ca.rmen.nounours", R.string.game_teddy),                  // Nounours and friends
